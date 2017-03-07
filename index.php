@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="style/css/style.css"/>
 </head>
 <body>
-<?php require 'variable.php'; ?>
+<a href="variable.php">Exercice</a>
 	<header>
 
 	</header>

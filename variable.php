@@ -52,7 +52,14 @@
 
 //EXO : 6
 
-$nom3 = "Eddy";
-echo ' Bonjour '. $nom3 .' comment vas-tu? '
+//$nom3 = "Eddy";
+//echo ' Bonjour '. $nom3 .' comment vas-tu? '
 
+
+//EXO : 7
+
+$nom4 = "Huleu";
+$prenom2 = "Eddy";
+$age2 = 19;
+echo 'Bonjour '. $nom4 .' '. $prenom2 .' tu as '. $age2 .' ans.'
 ?>
