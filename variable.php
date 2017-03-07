@@ -41,7 +41,7 @@
 
 //EXO : 5
 
-$int = "";
+$int = null;
 
 echo "$int";
 
