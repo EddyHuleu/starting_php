@@ -41,13 +41,17 @@
 
 //EXO : 5
 
-$int = null;
+//$int = null;
 
-echo "$int";
+//echo "$int";
 
-$int = 10;
+//$int = 10;
 
-echo "$int";
+//echo "$int";
+
+
+//EXO : 6
+
 
 
 ?>
