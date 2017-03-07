@@ -58,8 +58,17 @@
 
 //EXO : 7
 
-$nom4 = "Huleu";
-$prenom2 = "Eddy";
-$age2 = 19;
-echo 'Bonjour '. $nom4 .' '. $prenom2 .' tu as '. $age2 .' ans.'
+//$nom4 = "Huleu";
+//$prenom2 = "Eddy";
+//$age2 = 19;
+//echo 'Bonjour '. $nom4 .' '. $prenom2 .' tu as '. $age2 .' ans.'
+
+//EXO : 8
+
+$addition = 3 + 4;
+$multiplication = 5 * 20;
+$division = 45 / 5;
+
+echo ' Les résultats sont '.$addition.' '.$multiplication.' '.$division.' '
+
 ?>
