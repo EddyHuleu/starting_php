@@ -12,7 +12,5 @@ $nom = 'Huleu';
 $prenom = 'Eddy';
 $age = 19;
 
-echo($nom);
-echo($prenom);
-echo($age);
+echo "$nom " , "$prenom " , "$age ";
 ?>
