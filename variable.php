@@ -8,11 +8,11 @@
 
 //EXO : 2
 
-//$nom = 'Huleu';
+//$nom1 = 'Huleu';
 //$prenom = 'Eddy';
 //$age = 19;
 
-//echo "$nom " , "$prenom " , "$age "; 
+//echo "$nom1 " , "$prenom " , "$age "; 
 
 //EXO : 3
 
@@ -52,6 +52,7 @@
 
 //EXO : 6
 
-
+$nom3 = "Eddy";
+echo ' Bonjour '. $nom3 .' comment vas-tu? '
 
 ?>
