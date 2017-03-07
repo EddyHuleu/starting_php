@@ -31,14 +31,23 @@
 
 //EXO : 4
 
-$string = "chaine de caractere";
-$int =  10;
-$float = 1.1;
-$boolean = true;
+//$string = "chaine de caractere";
+//$int =  10;
+//$float = 1.1;
+//$boolean = true;
 
-echo "$string", "$int", "$float", "$boolean";
+//echo "$string", "$int", "$float", "$boolean";
 
 
+//EXO : 5
+
+$int = "";
+
+echo "$int";
+
+$int = 10;
+
+echo "$int";
 
 
 ?>
