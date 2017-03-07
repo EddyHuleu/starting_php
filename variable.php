@@ -65,10 +65,12 @@
 
 //EXO : 8
 
-$addition = 3 + 4;
-$multiplication = 5 * 20;
-$division = 45 / 5;
+//$addition = 3 + 4;
+//$multiplication = 5 * 20;
+//$division = 45 / 5;
 
-echo ' Les résultats sont '.$addition.' '.$multiplication.' '.$division.' '
+//echo ' Les résultats sont '.$addition.' '.$multiplication.' '.$division.' '
+
+
 
 ?>
