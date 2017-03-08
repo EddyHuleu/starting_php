@@ -15,11 +15,21 @@
 //function teusha($chaine){
 //	$chaine = 'teubi en i'; 
 //	return $chaine;
-//	echo 'teusha';
 //}
+//	echo 'teusha';
+
 
 //EXO 3:
 
 //Faire une fonction qui prend deux chaine de caractere et qui renvoie la concaténation de ses deux chaines.
+
+function oui($string, $string2){
+	$string = 'oui oui oui';
+	$string2 = 'non non non';
+	return concat$string;
+}
+	echo 'oui';
+
+
 
 ?>
