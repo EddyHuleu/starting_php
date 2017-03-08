@@ -96,4 +96,6 @@ print_r($array);*/
 	for($i=0;$i<count($array); $i++) { 
             echo "Le departement $array[$i]"; 
         }*/
+
+        
 ?>
