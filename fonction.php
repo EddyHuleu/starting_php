@@ -23,13 +23,16 @@
 
 //Faire une fonction qui prend deux chaine de caractere et qui renvoie la concaténation de ses deux chaines.
 
-function oui($string, $string2){
-	$string = 'oui oui oui';
-	$string2 = 'non non non';
-	return concat$string;
-}
-	echo 'oui';
+//function oui($string, $string2){
+//	$string = 'oui oui oui';
+//	$string2 = 'non non non';
+//	return concat$string;
+//}
+//	echo 'oui';
 
+//EXO 4:
+
+// Faire une fonction qui prend en parametre deux nombres, la fonction doit retourné 
 
 
 ?>
