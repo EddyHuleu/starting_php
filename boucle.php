@@ -40,6 +40,19 @@
 
 //Créer une variabe est l'initialiser a 1 tant que cette variable n'atteint pas 10 il faut l'afficher et l'incrémenter de la moitié de sa valeur
 
+//$c = 1;
 
+//while($c == 10){
+//	$c= $c++/2;
+//	echo($c);
+//}
+
+//EXO 5:
+
+// En allant de 1 a 15 avec un pas de 1 afficher le message on y arrive presque
+
+$d = 1;
+
+while
 
 ?>
