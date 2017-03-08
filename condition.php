@@ -1,11 +1,15 @@
 <?php
 
+//EXO 1 :
+
 //$age = 19;
 //if($age < 18){
 //	echo 'Vous êtes mineur.';
 //}else{
  //	echo 'Vous êtes majeur.';
 //}
+
+//EXO 2:
 
 // $iseasy = true;
 
@@ -15,14 +19,21 @@
 //	echo 'c difficile';
 //}
 
-$age = 15;
-$genre = 'Femme';
+//EXO 3 :
 
-if($age < 18){
-	if($genre){
-	echo 'Vous êtes un '.$genre.' mineur.';
-	}
-}else{
- 	echo 'Vous êtes un '.$genre.' majeur.';
-}
+//$age = 15;
+//$genre = 'Femme';
+
+//if($age < 18){
+//	if($genre){
+//	echo 'Vous êtes un '.$genre.' mineur.';
+//	}
+//}else{
+// 	echo 'Vous êtes un '.$genre.' majeur.';
+//}
+
+
+//EXO 4 :
+
+
 ?>
