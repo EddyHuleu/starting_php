@@ -51,11 +51,21 @@
 
 // En allant de 1 a 15 avec un pas de 1 afficher le message on y arrive presque
 
-$d = 1;
+//$d = 1;
+//while($d <= 15){
+//	$d++;
+//	echo " On y arrive presque<br>";
+//}
 
-while($d <= 15){
-	$d++;
-	echo " On y arrive presque<br>";
+//EXO 6:
+
+//En allant de 20 a 0 avec un pas de 1 afficher le message c'est presque bon
+
+$e = 20;
+while($e >= 0){
+	$e--;
+	echo 'C est presque bon';
 }
+
 
 ?>
