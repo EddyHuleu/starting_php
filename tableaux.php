@@ -65,8 +65,25 @@ print_r($arrayName);*/
 //EXO 8:
 
 //Avec le tableau de l'exercice 1 et une boucle afficher toute les valeurs de ce tableau
+ 
+/* $array=array("Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Decembre");
+         
+        for($i=0;$i<count($array); $i++) { 
+            echo "Le $i c'est le mois de $array[$i] "; 
+        } */
 
-$array = array("Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Decembre");
-var_dump($array);
+//EXO 9:
+
+// Avec le tableau de l'exercice 5, afficher toute les valeurs de se tableaux avec leurs clefs.
+
+/*$array = array(
+    'Aisne'    => 02,
+    'Nord'  => 59,
+    'Oise'  => 60,
+    'Pas-de-Calais' => 62,
+    'Somme' => 80
+);
+print_r($array);*/
+
 
 ?>
