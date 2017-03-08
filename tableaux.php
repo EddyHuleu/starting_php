@@ -51,15 +51,22 @@ var_dump($array['Nord']);*/
 
 //Avec le tableau de l'exercice 5 ajouter la ligne avec le departement de Reins
 
-$array = array(
-    'Aisne' => 02,
-    'Marne' => 51,
-    'Nord'  => 59,
-    'Oise'  => 60,
-    'Pas-de-Calais' => 62,
-    'Somme' => 80
-);
-var_dump($array);
+/*$arrayName = array(
+					02 => "Aisne" ,
+					59 => "Nord" ,
+					60=> "Oise",
+					62 =>"Pas-de-Calais",
+					80 =>"Somme",
+				);
+$arrayName[] = array(
+	 51 => "Rince");
+print_r($arrayName);*/
 
+//EXO 8:
+
+//Avec le tableau de l'exercice 1 et une boucle afficher toute les valeurs de ce tableau
+
+$array = array("Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Decembre");
+var_dump($array);
 
 ?>
