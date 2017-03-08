@@ -77,4 +77,13 @@
 //	echo 'On tient le bambou';
 //}
 
+//EXO 8:
+
+//En allant de 200 a 0 avec un pas de 12 afficher le message : enfin !!!!
+
+//$g = 200;
+//while($g >= 0){
+//	$g = ($g - 12);
+//	echo ' enfin !!!!';
+//}
 ?>
