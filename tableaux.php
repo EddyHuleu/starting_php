@@ -86,4 +86,14 @@ print_r($arrayName);*/
 print_r($array);*/
 
 
+
+//EXO 10:
+
+// Avec le tableau 5 afficher toute les valeurs de ce tableau ainsi que les clefs associés cela pourra etre par exemple de la forme : "Departement" $nomdudepartement + ""
+
+
+/*$array=array("Aisne[02]", "Nord[59]", "Oise[60]", "Pas-de-Calais[62]", "Somme[80]");
+	for($i=0;$i<count($array); $i++) { 
+            echo "Le departement $array[$i]"; 
+        }*/
 ?>
