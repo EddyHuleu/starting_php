@@ -54,4 +54,19 @@
 
 //Faire une fonction qui prend en  parametre un nombre et une chaine de caractere et qui renvoie la concaténation de ses deux parametres.
 
+//function teusha($chaine, $nombre){
+//	return $chaine, $nombre;
+//}
+//	echo teusha('$chaine', $nombre);
+
+
+//EXO 6:
+
+//Faire une fonction qui prend 3 parametre, nom prenom et age. Elle doit renvoyer une chaine de la forme bonjour + nom + prenom + tu as + age + ans.
+
+	//$nom = 'Huleu';
+	//$prenom = 'Eddy';
+	//$age = 19;
+	//echo 'Bonjour '.$nom.' '.$prenom.' tu as '.$age.' ans';
+
 ?>
