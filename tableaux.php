@@ -19,7 +19,21 @@ echo $array[5];*/
 
 //EXO 4:
 
-$array = array("Janvier", "Fevrier", "Mars", "Avril", "Mai", "Julien", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Decembre");
-var_dump($array);
+/*$array = array("Janvier", "Fevrier", "Mars", "Avril", "Mai", "Julien", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Decembre");
+var_dump($array);*/
+
+
+//EXO 5:
+
+//Créer un tableau associatif avec comme index le numéro des departements des Hauts France et leurs noms
+
+$array = array(
+    'Aisne'    => 02,
+    'Nord'  => 59,
+    'Oise'  => 60,
+    'Pas-de-Calais' => 62,
+    'Somme' => 80
+);
+var_dump($array)
 
 ?>
