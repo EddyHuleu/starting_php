@@ -61,11 +61,20 @@
 
 //En allant de 20 a 0 avec un pas de 1 afficher le message c'est presque bon
 
-$e = 20;
-while($e >= 0){
-	$e--;
-	echo 'C est presque bon';
-}
+//$e = 20;
+//while($e >= 0){
+//	$e--;
+//	echo 'C est presque bon';
+//}
 
+//EXO 7:
+
+//En allant de 1 a 100 avec un pas de 15 afficher le message on tient le bambou
+
+//$f = 1;
+//while($f <= 100){
+//	$f = ($f + 15);
+//	echo 'On tient le bambou';
+//}
 
 ?>
