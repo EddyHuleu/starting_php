@@ -10,6 +10,7 @@
 <a href="variable.php">Exercice 1</a><br/>
 <a href="condition.php">Exercice 2</a><br/>
 <a href="boucle.php">Exercice 3</a><br/>
+<a href="fonction.php">Exercice 4</a><br/>
 	<header>
 
 	</header>
