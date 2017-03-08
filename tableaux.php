@@ -27,13 +27,39 @@ var_dump($array);*/
 
 //Créer un tableau associatif avec comme index le numéro des departements des Hauts France et leurs noms
 
-$array = array(
+/*$array = array(
     'Aisne'    => 02,
     'Nord'  => 59,
     'Oise'  => 60,
     'Pas-de-Calais' => 62,
     'Somme' => 80
 );
-var_dump($array)
+var_dump($array);*/
+
+//EXO 6:
+
+/*$array = array(
+    'Aisne'    => 02,
+    'Nord'  => 59,
+    'Oise'  => 60,
+    'Pas-de-Calais' => 62,
+    'Somme' => 80
+);
+var_dump($array['Nord']);*/
+
+//EXO 7:
+
+//Avec le tableau de l'exercice 5 ajouter la ligne avec le departement de Reins
+
+$array = array(
+    'Aisne' => 02,
+    'Marne' => 51,
+    'Nord'  => 59,
+    'Oise'  => 60,
+    'Pas-de-Calais' => 62,
+    'Somme' => 80
+);
+var_dump($array);
+
 
 ?>
