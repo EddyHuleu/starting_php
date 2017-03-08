@@ -53,6 +53,9 @@
 
 $d = 1;
 
-while
+while($d <= 15){
+	$d++;
+	echo " On y arrive presque<br>";
+}
 
 ?>
