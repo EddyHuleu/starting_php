@@ -15,6 +15,7 @@
 <a href="parametre.php">Exercice 6</a><br/>
 <a href="formulaire.php">Exercice 7</a><br/>
 <a href="superglobal.php">Exercice 8</a><br/>
+<a href="date.php">Exercice Date</a><br/>
 	<header>
 
 	</header>
