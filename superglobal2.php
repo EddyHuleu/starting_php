@@ -14,9 +14,9 @@
 //On créer une page superglobal2.php, passer d'une page a l'autre, les variables nom prenom et age grace aux sessions ses variable auront été définis directement dans le code il faudra afficher.
 session_start();
 
-echo $_SESSION['nom'];
-echo $_SESSION['prenom'];
-echo $_SESSION['age'];
+echo $_SESSION['nom'].'</br>'; 
+echo $_SESSION['prenom'].'</br>';
+echo $_SESSION['age'].'</br>';
 
 ?>
 </body>

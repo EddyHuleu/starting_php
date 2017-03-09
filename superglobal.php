@@ -13,22 +13,11 @@
 
 //Faire une page html permettant de donner a l'utilisateur son userAgent son adresse ip et le nom du serveur
 
-if(strpos($_SERVER["SERVER_NAME"], 'Firefox') !== false)
-        $SERVER_NAME = 'Mozilla Firefox';
-    elseif(strpos($_SERVER["SERVER_NAME"], 'Opera') !== false)
-        $SERVER_NAME = 'Opera';
-    elseif(strpos($_SERVER["SERVER_NAME"], 'Netscape') !== false)
-        $SERVER_NAME = 'Netscape';
-    elseif(strpos($_SERVER["SERVER_NAME"], 'Konqueror') !== false)
-        $SERVER_NAME = 'Konqueror';
-    elseif(strpos($_SERVER["SERVER_NAME"], 'MSIE') !== false)
-        $SERVER_NAME = 'Internet Explorer / Avant Browser';
-    else
-        $SERVER_NAME = '(navigateur inconnu)';
- 
-    //UTILISATION
-    echo $SERVER_NAME;
-    echo $_SERVER["REMOTE_ADDR"];
+echo 'Nom du serveur : '.$_SERVER["SERVER_NAME"];
+echo "</br>";
+echo 'Nom du navigateur : '.   $_SERVER["HTTP_USER_AGENT"];
+echo "</br>";
+echo 'Nom de l\'utilisateur : '.  $_SERVER['SERVER_ADDR']. "</br>";
 
 //EXO 2:
 
@@ -39,6 +28,11 @@ session_start();
 $_SESSION['nom'] = 'Huleu';
 $_SESSION['prenom'] = 'Eddy';
 $_SESSION['age']= 19;
+
+
+//EXO3:
+
+//Faire un formulaire qui permet de recuperer un login et un mot de passe de l'utilisateur a la validation du formulaire stocker les informations dans un cookie
 
 ?>
 <a href="superglobal2.php">SuperGlobal2</a><br/>
