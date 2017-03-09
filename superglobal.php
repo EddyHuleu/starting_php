@@ -49,15 +49,6 @@ setcookie('pseudo', $pseudo);
 setcookie('password', $password);
 ?>
 
-
-<?php
-
-//EXO 4:
-
-//Sur superglobal2.php recuperer les info du cookie crée a l'exo 3 et l'afficher
-
-
-?>
 <a href="superglobal2.php">SuperGlobal2</a><br/>
 </body>
 </html>
