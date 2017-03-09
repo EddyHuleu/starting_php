@@ -18,6 +18,9 @@ echo $_SESSION['nom'].'</br>';
 echo $_SESSION['prenom'].'</br>';
 echo $_SESSION['age'].'</br>';
 
+echo 'Cookie pseudo est : '.$_COOKIE['pseudo'].'</br>';
+echo 'Cookie password est : '.$_COOKIE['password'].'';
+
 ?>
 
 </body>
