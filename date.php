@@ -1,5 +1,4 @@
 <?php
-
-echo time();
-
+$date = strftime("%A %d %B %Y %H:%M");
+echo ''.$date.'';
 ?>
