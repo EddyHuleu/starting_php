@@ -30,10 +30,23 @@ $_SESSION['prenom'] = 'Eddy';
 $_SESSION['age']= 19;
 
 
+?>
+
+<form action="" method="post">
+<p>Votre login : <input type="text" name="pseudo" /></p>
+<p>Votre password : <input type="password" name="password" /></p>
+<p><input type="submit" value="OK"></p>
+</form>
+<?php
 //EXO3:
 
 //Faire un formulaire qui permet de recuperer un login et un mot de passe de l'utilisateur a la validation du formulaire stocker les informations dans un cookie
 
+$pseudo = $_POST['pseudo'];
+$password = $_POST['password'];
+
+setcookie('pseudo', $pseudo);
+setcookie('password', $password);
 ?>
 <a href="superglobal2.php">SuperGlobal2</a><br/>
 </body>

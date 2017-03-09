@@ -19,6 +19,7 @@ echo $_SESSION['prenom'].'</br>';
 echo $_SESSION['age'].'</br>';
 
 ?>
+
 </body>
 </html>
 
